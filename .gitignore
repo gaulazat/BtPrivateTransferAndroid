@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+Будет удалено .gitignore
+Будет удалено .idea/compiler.xml
+Будет удалено .idea/copyright/
+Будет удалено .idea/gradle.xml
+Будет удалено .idea/misc.xml
+Будет удалено .idea/modules.xml
+Будет удалено .idea/runConfigurations.xml
+Будет удалено app/
+Будет удалено btprivatetransferlibrary/
+Будет удалено build.gradle
+Будет удалено gradle.properties
+Будет удалено gradle/
+Будет удалено gradlew
+Будет удалено gradlew.bat
+Будет удалено settings.gradle
+Будет удалено libs/
+Будет удалено proguard-rules.pro
+Будет удалено src/
