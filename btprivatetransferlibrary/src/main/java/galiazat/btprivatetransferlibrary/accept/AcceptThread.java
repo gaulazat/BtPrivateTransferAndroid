@@ -77,7 +77,8 @@ public class AcceptThread extends Thread{
                     @Override
                     public void run() {
                         if (mCallback != null){
-                            BtDevice btDevice = new BtDevice(finalSocket1.getRemoteDevice(), StaticIdGenerator.getInstance().generateId(), true);
+                            BtDevice btDevice = new BtDevice(finalSocket1.getRemoteDevice(),
+                                    StaticIdGenerator.getInstance().generateId(), true);
                             mCallback.connected(finalSocket, btDevice, mSocketType);
                         }
                     }
