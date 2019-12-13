@@ -4,8 +4,8 @@ plugins {
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "galiazat.btprivatetransfersample"
         minSdkVersion 15
@@ -28,9 +28,9 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support:design:26.+'
-    compile 'com.android.support:support-vector-drawable:26.+'
+    compile 'com.android.support:appcompat-v7:28.+'
+    compile 'com.android.support:design:28.+'
+    compile 'com.android.support:support-vector-drawable:28.+'
 
     compile project(path: ':btprivatetransferlibrary')
 
