@@ -1,1 +1,7 @@
 include ':app', ':btprivatetransferlibrary'
+buildCache {
+    local {
+        // Set local build cache directory.
+        directory = "C:\\gradle_cache"
+    }
+}
